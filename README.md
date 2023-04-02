@@ -37,3 +37,23 @@ http://localhost:8080/
 ```bash
 vue-docker/src/App.vue
 ```
+
+## 開発環境操作
+
+### 開発環境コンテナ起動/設定再読み込み
+
+```bash
+docker-compose up -d
+```
+
+### 開発環境コンテナ停止
+
+```bash
+docker-compose stop
+```
+
+### 開発環境コンテナ破棄
+
+```bash
+docker-compose down
+```
