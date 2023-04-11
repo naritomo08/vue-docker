@@ -34,8 +34,6 @@ const addTodo = () => {
                 <button class="btn pink">削</button>
             </div>
         </div>
-    </div>
-    <div class="box_list">
         <div class="todo_list">
             <div class="todo">
                 <input type="checkbox" class="check" /><label>TODO02</label>
@@ -46,6 +44,7 @@ const addTodo = () => {
             </div>
         </div>
     </div>
+    
 </template>
 
 <style scoped>
