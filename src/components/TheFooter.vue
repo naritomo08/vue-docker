@@ -5,7 +5,7 @@
 </template>
 
 <style scoped>
-.title{
+.footer{
     margin-top: 15px;
     height: 30px;
 }
