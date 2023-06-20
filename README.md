@@ -38,6 +38,12 @@ http://localhost:8080/
 vue-docker/src/App.vue
 ```
 
+### コンテナログイン
+
+```bash
+docker-compose exec vue-app bash
+```
+
 ## 開発環境操作
 
 ### 開発環境コンテナ起動/設定再読み込み
