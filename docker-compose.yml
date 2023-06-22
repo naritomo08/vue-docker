@@ -1,4 +1,8 @@
 version: "3.9"
+
+volumes:
+  vue_volume:
+
 services:
   vue-app:
     build: .
@@ -6,4 +10,4 @@ services:
       - "8080:8080"
     volumes:
       - .:/app
-      - /app/node_modules
+      - vue_volume:/app/node_modules
